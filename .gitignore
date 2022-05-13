@@ -21,6 +21,7 @@ lerna-debug.log*
 # IDEs and editors
 /.idea
 .project
+.eslintrc.js
 .classpath
 .c9/
 *.launch
