@@ -3,7 +3,7 @@ import { PrismaService } from "src/prisma/prisma.service";
 
 // Responsible for the business logic (without connecting database)
 
-@Injectable({})
+@Injectable()
 export class AuthService {
    constructor(private  prisma: PrismaService) {}
    signup() {
